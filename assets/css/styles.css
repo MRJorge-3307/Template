@@ -1,0 +1,26 @@
+/* Variables CSS */
+:root {
+    --primary-color: #2563eb;
+    --dark-bg: #1e293b;
+    --text-light: #f8fafc;
+    --gradient: linear-gradient(135deg, #6366f1 0%, #2563eb 100%);
+}
+
+/* Efecto Glassmorphism */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+    }
+    
+    .mobile-menu {
+        display: block;
+    }
+}
